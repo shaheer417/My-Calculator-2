@@ -2,8 +2,6 @@
 
 // SHABANG
 
-
-
 import inquirer from "inquirer";
 
 const answer = await inquirer.prompt([
@@ -36,3 +34,5 @@ if (answer.operator === "Addition") {
 } else {
   console.log("Please enter valid operator");
 }
+
+console.log("The Project ends here");
